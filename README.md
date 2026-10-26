@@ -12,9 +12,15 @@ Finds the minimum number of visits a supervisor must make, at the given free tim
 ## Run
 
 - From the files in the main, open min_visits.py.
-- Copy the code written in the file. 
-- Open Python 3.6 or newer and paste the code in there.
 - Save the code as `min_visits.py` in a folder of your choice (for example `min_visits_project`).
+- In the smae folder, create a .txt file (say, `sample.txt`) which is used to hold the input.
+  
+  The first line is `n m` (number of lectures and number of free times).
+
+  The second line lists the free times.
+
+  Each remaining line is the start and end of one  lecture.
+
 
 
 ## Input format
