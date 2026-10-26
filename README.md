@@ -15,18 +15,6 @@ Finds the minimum number of visits a supervisor must make, at the given free tim
 - Save the code as `min_visits.py` in a folder of your choice (for example `min_visits_project`).
 - In the smae folder, create a .txt file (say, `sample.txt`) which is used to hold the input.
 
-  Example (`sample.txt`)
-
-```
-5 5
-00:00 04:00 08:00 12:00 16:00
-00:00 04:00
-04:00 08:00
-08:00 12:00
-12:00 16:00
-16:00 00:00
-```
-
 ```
 n m
 t_1 t_2 ... t_m
