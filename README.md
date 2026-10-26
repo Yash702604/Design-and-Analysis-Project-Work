@@ -11,17 +11,13 @@ Finds the minimum number of visits a supervisor must make, at the given free tim
 
 ## Run
 
-From the folder containing the files:
+From the files in the main: 
 
-```bash
-python3 min_visits.py sample.txt
-```
+Open min_visits.py
+Copy the code written in the file. 
+Open Python 3.6 or newer and paste the code in there.
+Then execute the code.
 
-or pass the input through stdin:
-
-```bash
-python3 min_visits.py < sample.txt
-```
 
 ## Input format
 
@@ -62,10 +58,3 @@ Visit at: 00:00 08:00 16:00
 - Second line: one optimal set of visit times
 - If some lecture contains no free time, the output is `-1  (some lecture contains no free time)`
 
-## Run the tests
-
-```bash
-python3 test_bruteforce.py
-```
-
-This compares the solver against an exhaustive search on 20,000 random cases and prints `all 20000 random cases match brute force` when everything passes.
