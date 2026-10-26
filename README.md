@@ -14,16 +14,18 @@ Finds the minimum number of visits a supervisor must make, at the given free tim
 - From the files in the main, open min_visits.py.
 - Save the code as `min_visits.py` in a folder of your choice (for example `min_visits_project`).
 - In the smae folder, create a .txt file (say, `sample.txt`) which is used to hold the input.
-  
-  The first line is `n m` (number of lectures and number of free times).
 
-  The second line lists the free times.
+  Example (`sample.txt`)
 
-  Each remaining line is the start and end of one  lecture.
-
-
-
-## Input format
+```
+5 5
+00:00 04:00 08:00 12:00 16:00
+00:00 04:00
+04:00 08:00
+08:00 12:00
+12:00 16:00
+16:00 00:00
+```
 
 ```
 n m
@@ -39,17 +41,7 @@ s_n e_n
 - Times can be `HH:MM` or minutes since midnight (`0` to `1439`)
 - If start is later than end, the lecture wraps past midnight (e.g. `23:00 01:00`)
 
-### Example (`sample.txt`)
 
-```
-5 5
-00:00 04:00 08:00 12:00 16:00
-00:00 04:00
-04:00 08:00
-08:00 12:00
-12:00 16:00
-16:00 00:00
-```
 
 ## Output
 
