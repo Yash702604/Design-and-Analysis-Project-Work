@@ -7,7 +7,7 @@ Finds the minimum number of visits a supervisor must make, at the given free tim
 
 ## Requirements
 
-- Python 3.6 or newer (standard library only, nothing to install)
+- Python 3.6 or newer.
 
 ## Run
 
@@ -37,5 +37,5 @@ s_n e_n
 - You can then interpret the output in the following manner:
   -1 means that no visits are possible, otherwise
   m
-  Visit at: ...   , where firt line denotes the minimum number of visits required and the second line shows the time of such visits.
+  Visits at: ...   , where m denotes the minimum number of visits required and the second line shows the time of such visits.
 
