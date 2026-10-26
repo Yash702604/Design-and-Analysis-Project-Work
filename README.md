@@ -11,9 +11,7 @@ Finds the minimum number of visits a supervisor must make, at the given free tim
 
 ## Run
 
-From the files in the main: 
-
-- Open min_visits.py
+- From the files in the main, open min_visits.py.
 - Copy the code written in the file. 
 - Open Python 3.6 or newer and paste the code in there.
 - Then execute the code.
